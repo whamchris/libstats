@@ -31,7 +31,7 @@ Change directory to /etc/apache2 and open apache2.conf in a text editor. Change 
 		Require all granted
 	</Directory>
 
-If the contents of libstats is not on the server, put it on there now. Move the contents to your Apache web folder (i.e. /var/www/html)
+If the contents of libstats is not on the server, put it on there now. Move the contents to your web root directory (i.e. /var/www/html)
 
 Enter mysql to create your database:
 
@@ -53,6 +53,8 @@ Edit init.php with database and user/pass you created:
 	$dbName = 'libstats';
 	$dbUser = '[USER]';
 	$dbPass = '[PASSWD]';
+
+Make sure the .htaccess file in your libstats folder has the correct RewriteBase. By default it is /libstats/. Make sure it is pointing to the correct directory relative to your web root.
 
 If everything was set up correctly, you should be able to access the website and login with your admin account. Make appropriate changes to your mysql database tables to customize the site to your liking.
 
