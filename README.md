@@ -45,7 +45,7 @@ Import the sql database (Make sure to change the admin password on the final lin
 
 	mysql> use libstats;
 	
-	mysql> source libstats.sql;
+	mysql> source /path/to/libstats.sql;
 
 Edit init.php with database and user/pass you created:
 	
