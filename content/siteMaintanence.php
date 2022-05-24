@@ -1,6 +1,6 @@
 <?php include "noAuthHeader.php"; ?>
 
-<img src = "images/sad_dog.jpg" class = "leftFloater"/> 
+<img src = "images/kitten.jpg" class = "leftFloater"/> 
 <h2>We're temporarily down.</h2>
 
 <p>
