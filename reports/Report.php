@@ -27,7 +27,7 @@ class Report {
    * have no idea. this was originally in the older Reports class
    * @return          : NULL
    */
-	function perform() {
+	function perform($sql, $param) {
 		return null;
 	}
 
