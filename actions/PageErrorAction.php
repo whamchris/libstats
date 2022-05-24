@@ -13,8 +13,8 @@ class PageErrorAction extends Action {
         var_dump($_REQUEST);
         echo "\n\nDump of SESSION:\n";
         var_dump($_SESSION);
-        echo "\n\nDump of rInfo:\n";
-        var_dump($rInfo);
+        //echo "\n\nDump of rInfo:\n";
+        //var_dump($rInfo);
 
         $message = ob_get_contents();
         // And send the error message as an email
